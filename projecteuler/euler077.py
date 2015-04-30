@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+from bisect import bisect
 #number of testcases
 t = int(input())
 
@@ -40,7 +40,11 @@ def change(n, coins_available, coins_so_far):
 		
 for i in range(t):
 	n = int(input())
-	print len([s for s in change(n,primes, [])])
+	# slice unused primes thanks to 
+	#http://stackoverflow.com/questions/29957895/select-elements-in-array-less-than-given-integer-in-python/29957970#29957970
+	primes_sliced = primes[:bisect(primes, n)]
+	
+	print len([s for s in change(n,primes_sliced, [])])
 	
 
 
