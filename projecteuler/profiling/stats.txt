@@ -1,0 +1,19 @@
+Wed Apr 29 20:34:06 2015    prof
+
+         58106359 function calls (38039044 primitive calls) in 43.858 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.040    0.040   43.858   43.858 euler077.py:2(<module>)
+20108215/40900   27.944    0.000   38.852    0.001 euler077.py:26(change)
+ 37998135   10.908    0.000   10.908    0.000 {sum}
+        2    4.965    2.483    4.965    2.483 {input}
+        1    0.000    0.000    0.000    0.000 bisect.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 {_bisect.bisect}
+        1    0.000    0.000    0.000    0.000 {range}
+        1    0.000    0.000    0.000    0.000 {len}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
