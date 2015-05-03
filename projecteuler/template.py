@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#!/usr/bin/python
+
 t = int(input())
 
 def caluclate(n):
