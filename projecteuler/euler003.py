@@ -30,7 +30,7 @@ def is_prime(n):
 	elif any(((n % x) == 0) for x in xrange(3, int(sqrt(n))+1, 2)):
 		return False
 	return True
-	
+#http://stackoverflow.com/questions/18833759/python-prime-number-checker	
 def largest_prime_factor(n):
 	i = 2
 	while i * i <= n:
