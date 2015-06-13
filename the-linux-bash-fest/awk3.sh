@@ -8,3 +8,18 @@ awk '{
     else
         print $1, $2, $3, $4,":","A";
 }'
+
+
+search engine start with
+that doesnt exist 
+
+read line1
+read line2
+arr=($line2)
+
+j = 0
+for i in ${arr[@]}; 
+do 
+ tmp = $j ^ $i; 
+done
+echo $tmp
