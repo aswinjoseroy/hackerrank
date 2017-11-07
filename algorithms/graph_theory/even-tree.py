@@ -7,7 +7,7 @@ cnt = 0
 
 config =  raw_input().split(' ')
 
-for j in range(int(config[1]):
+for j in range(int(config[1])):
 	i = raw_input().split(' ')
 	edges.append((i[0],i[1]))
 
